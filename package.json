@@ -1,0 +1,17 @@
+{
+  "name": "pfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"  cd backend && nodemon server.js     \"     \" cd frontend && npm start    \"      "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
